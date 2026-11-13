@@ -1,0 +1,5 @@
+Model,Threshold,Accuracy,Precision,Recall,F1,ROC-AUC
+Predict nobody (majority),0.5,0.889,0.0,0.0,0.0,0.5
+MLP (threshold 0.5),0.5,0.618,0.173,0.647,0.273,0.678
+MLP (tuned threshold),0.42,0.486,0.15,0.776,0.251,0.678
+Logistic Regression,0.5,0.652,0.18,0.602,0.277,0.672
